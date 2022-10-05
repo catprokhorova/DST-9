@@ -1,0 +1,133 @@
+03-01 14:23:19.928  2332  3238 W CameraX : 	at androidx.camera.core.impl.CameraValidator.validateCameras(CameraValidator.java:91)
+03-01 14:23:19.928  2332  3238 W CameraX : 	... 5 more
+03-01 14:23:20.358  2332  2332 D WmsInputProcessor: дальше
+03-01 14:23:20.374  2332  2332 D VoskModule: дальше
+03-01 14:23:20.388  2332  2949 D WmsApi  : Request: ValidateRouteID_ALCO('03-01-2022 14:23:20','660165782','v3601','1234','','71','1')
+03-01 14:23:20.388  2332  2949 D WmsApi  : 
+03-01 14:23:20.481  2332  3238 D CameraRepository: Added camera: 0
+03-01 14:23:20.485  2332  3238 I Camera2CameraInfo: Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_FULL
+03-01 14:23:20.486  2332  3238 D CameraValidator: Verifying camera lens facing on m400, lensFacingInteger: null
+03-01 14:23:20.490  2332  3238 E CameraValidator: Camera LensFacing verification failed, existing cameras: [Camera@3235f2e[id=0]]
+03-01 14:23:20.492  2332  3238 W CameraX : Retry init. Start time 624645 current time 626940
+03-01 14:23:20.492  2332  3238 W CameraX : androidx.camera.core.impl.CameraValidator$CameraIdListIncorrectException: Expected camera missing from device.
+03-01 14:23:20.492  2332  3238 W CameraX : 	at androidx.camera.core.impl.CameraValidator.validateCameras(CameraValidator.java:97)
+03-01 14:23:20.492  2332  3238 W CameraX : 	at androidx.camera.core.CameraX.lambda$initAndRetryRecursively$2$CameraX(CameraX.java:341)
+03-01 14:23:20.492  2332  3238 W CameraX : 	at androidx.camera.core.-$$Lambda$CameraX$dnuYhxGsACX_lH-9SVlUVTdtTJg.run(Unknown Source:10)
+03-01 14:23:20.492  2332  3238 W CameraX : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-01 14:23:20.492  2332  3238 W CameraX : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-01 14:23:20.492  2332  3238 W CameraX : 	at java.lang.Thread.run(Thread.java:764)
+03-01 14:23:20.492  2332  3238 W CameraX : Caused by: java.lang.IllegalArgumentException: No available camera can be found
+03-01 14:23:20.492  2332  3238 W CameraX : 	at androidx.camera.core.CameraSelector.select(CameraSelector.java:82)
+03-01 14:23:20.492  2332  3238 W CameraX : 	at androidx.camera.core.impl.CameraValidator.validateCameras(CameraValidator.java:91)
+03-01 14:23:20.492  2332  3238 W CameraX : 	... 5 more
+03-01 14:23:20.495  2332  2408 D WmsApi  : Response: ,,,,,,,,,,93,'Принтер 71 отсутствует в списке'
+03-01 14:23:20.495  2332  2408 D WmsApi  : Buffer: 
+03-01 14:23:20.495  2332  2408 D WmsApi  : Buffer size: 0
+03-01 14:23:20.999  2332  3238 D CameraRepository: Added camera: 0
+03-01 14:23:21.001  2332  3238 I Camera2CameraInfo: Device Level: INFO_SUPPORTED_HARDWARE_LEVEL_FULL
+03-01 14:23:21.001  2332  3238 D CameraValidator: Verifying camera lens facing on m400, lensFacingInteger: null
+03-01 14:23:21.002  2332  3238 E CameraValidator: Camera LensFacing verification failed, existing cameras: [Camera@6c34af4[id=0]]
+03-01 14:23:21.002  2332  3238 E CameraX : The device might underreport the amount of the cameras. Finish the initialize task since we are already reaching the maximum number of retries.
+03-01 14:23:21.039  2332  2332 D CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=180, isOppositeFacing=true, result=180
+03-01 14:23:21.040  2332  2332 D CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=180, isOppositeFacing=true, result=180
+03-01 14:23:21.047  2332  2332 D DeferrableSurface: Surface created[total_surfaces=1, used_surfaces=0](androidx.camera.core.SurfaceRequest$2@854e390}
+03-01 14:23:21.049  2332  2332 D CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=180, isOppositeFacing=true, result=180
+03-01 14:23:21.054  2332  2332 I chatty  : uid=10082(com.mixar.x5_demoui) identical 1 line
+03-01 14:23:21.054  2332  2332 D CameraOrientationUtil: getRelativeImageRotation: destRotationDegrees=0, sourceRotationDegrees=180, isOppositeFacing=true, result=180
+03-01 14:23:21.056  2332  2332 D DeferrableSurface: Surface created[total_surfaces=2, used_surfaces=0](androidx.camera.core.impl.ImmediateSurface@f76ccaf}
+03-01 14:23:21.059  2332  2332 D PreviewView: Surface requested by Preview.
+03-01 14:23:21.059  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Use case androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129 ACTIVE
+03-01 14:23:21.063  2332  3238 D UseCaseAttachState: Active and attached use case: [] for camera: 0
+03-01 14:23:21.063  2332  2332 D PreviewView: Preview transformation info updated. TransformationInfo{cropRect=Rect(0, 0 - 640, 360), rotationDegrees=180, targetRotation=0}
+03-01 14:23:21.063  2332  2332 D PreviewTransform: Transformation info set: TransformationInfo{cropRect=Rect(0, 0 - 640, 360), rotationDegrees=180, targetRotation=0} 640x360 false
+03-01 14:23:21.072  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Use case androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326 ACTIVE
+03-01 14:23:21.073  2332  3238 D UseCaseAttachState: Active and attached use case: [] for camera: 0
+03-01 14:23:21.080  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Use cases [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] now ATTACHED
+03-01 14:23:21.083  2332  3238 D UseCaseAttachState: All use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.086  2332  3238 D UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.089  2332  2332 D SurfaceViewImpl: Surface created.
+03-01 14:23:21.089  2332  2332 D SurfaceViewImpl: Surface changed. Size: 640x360
+03-01 14:23:21.096  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Resetting Capture Session
+03-01 14:23:21.097  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Releasing session in state INITIALIZED
+03-01 14:23:21.099  2332  2332 D SurfaceViewImpl: Surface set on Preview.
+03-01 14:23:21.099  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Attempting to force open the camera.
+03-01 14:23:21.101  2332  3238 D CameraStateRegistry: tryOpenCamera(Camera@6c34af4[id=0]) [Available Cameras: 1, Already Open: false (Previous state: null)] --> SUCCESS
+03-01 14:23:21.103  2332  3238 D CameraStateRegistry: Recalculating open cameras:
+03-01 14:23:21.103  2332  3238 D CameraStateRegistry: Camera                                       State                 
+03-01 14:23:21.103  2332  3238 D CameraStateRegistry: -------------------------------------------------------------------
+03-01 14:23:21.103  2332  3238 D CameraStateRegistry: Camera@6c34af4[id=0]                         OPENING               
+03-01 14:23:21.103  2332  3238 D CameraStateRegistry: -------------------------------------------------------------------
+03-01 14:23:21.103  2332  3238 D CameraStateRegistry: Open count: 1 (Max allowed: 1)
+03-01 14:23:21.104  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Opening camera.
+03-01 14:23:21.105  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Transitioning camera internal state: INITIALIZED --> OPENING
+03-01 14:23:21.106  2332  3238 D CameraStateMachine: New public camera state CameraState{type=OPENING, error=null} from OPENING and null
+03-01 14:23:21.106  2332  3238 D CameraStateMachine: Publishing new public camera state CameraState{type=OPENING, error=null}
+03-01 14:23:21.108  2332  3238 D UseCaseAttachState: All use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.114  2332  3238 E libc    : Access denied finding property "persist.vendor.camera.privapp.list"
+03-01 14:23:21.107  2332  2332 W CameraX-core_ca: type=1400 audit(0.0:71): avc: denied { read } for name="u:object_r:vendor_camera_prop:s0" dev="tmpfs" ino=20899 scontext=u:r:untrusted_app:s0:c82,c256,c512,c768 tcontext=u:object_r:vendor_camera_prop:s0 tclass=file permissive=0
+03-01 14:23:21.293  2332  2949 D ErrorData: Error: 'Принтер 71 отсутствует в списке'
+03-01 14:23:21.293  2332  2949 W System.err: com.mixar.dm.exceptions.CommandExecutionException: 'Принтер 71 отсутствует в списке'
+03-01 14:23:21.293  2332  2949 W System.err: 	at com.mixar.x5_demoui.core.wms.commands.impl.ScanPrinterCodeCommand.execute(ScanPrinterCodeCommand.java:47)
+03-01 14:23:21.294  2332  2949 W System.err: 	at com.mixar.x5_demoui.core.wms.commands.impl.ScanPrinterCodeCommand.execute(ScanPrinterCodeCommand.java:24)
+03-01 14:23:21.294  2332  2949 W System.err: 	at com.mixar.dm.core.DialogueManager.lambda$pushCommand$0$DialogueManager(DialogueManager.java:56)
+03-01 14:23:21.294  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Use case androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129 ACTIVE
+03-01 14:23:21.294  2332  2949 W System.err: 	at com.mixar.dm.core.-$$Lambda$DialogueManager$Yyq08H-RWJ5w4_C6reie7xKGrgI.run(Unknown Source:4)
+03-01 14:23:21.294  2332  2949 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-01 14:23:21.294  2332  2949 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-01 14:23:21.294  2332  2949 W System.err: 	at java.lang.Thread.run(Thread.java:764)
+03-01 14:23:21.296  2332  3238 D UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.303  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Use case androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326 ACTIVE
+03-01 14:23:21.305  2332  3238 D UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.313  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} CameraDevice.onOpened()
+03-01 14:23:21.313  2332  3238 D Camera2CameraImpl: {Camera@6c34af4[id=0]} Transitioning camera internal state: OPENING --> OPENED
+03-01 14:23:21.314  2332  3238 D CameraStateRegistry: Recalculating open cameras:
+03-01 14:23:21.314  2332  3238 D CameraStateRegistry: Camera                                       State                 
+03-01 14:23:21.314  2332  3238 D CameraStateRegistry: -------------------------------------------------------------------
+03-01 14:23:21.314  2332  3238 D CameraStateRegistry: Camera@6c34af4[id=0]                         OPEN                  
+03-01 14:23:21.314  2332  3238 D CameraStateRegistry: -------------------------------------------------------------------
+03-01 14:23:21.314  2332  3238 D CameraStateRegistry: Open count: 1 (Max allowed: 1)
+03-01 14:23:21.314  2332  3238 D CameraStateMachine: New public camera state CameraState{type=OPEN, error=null} from OPEN and null
+03-01 14:23:21.314  2332  3238 D CameraStateMachine: Publishing new public camera state CameraState{type=OPEN, error=null}
+03-01 14:23:21.315  2332  3238 D UseCaseAttachState: All use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.319  2332  3238 D UseCaseAttachState: Active and attached use case: [androidx.camera.core.Preview-4bde2348-f810-4a5f-9c0f-b0a101b99cea60034129, androidx.camera.core.ImageAnalysis-22b48391-c6d8-4e78-b111-ab3e5de5cd1b158342326] for camera: 0
+03-01 14:23:21.322  2332  3238 D SyncCaptureSessionBase: [androidx.camera.camera2.internal.SynchronizedCaptureSessionBaseImpl@45c8708] getSurface...done
+03-01 14:23:21.323  2332  3238 D CaptureSession: Opening capture session.
+03-01 14:23:21.334  2332  3238 D DeferrableSurface: New surface in use[total_surfaces=2, used_surfaces=1](androidx.camera.core.SurfaceRequest$2@854e390}
+03-01 14:23:21.334  2332  3238 D DeferrableSurface: use count+1, useCount=1 androidx.camera.core.SurfaceRequest$2@854e390
+03-01 14:23:21.334  2332  3238 D DeferrableSurface: New surface in use[total_surfaces=2, used_surfaces=2](androidx.camera.core.impl.ImmediateSurface@f76ccaf}
+03-01 14:23:21.334  2332  3238 D DeferrableSurface: use count+1, useCount=1 androidx.camera.core.impl.ImmediateSurface@f76ccaf
+03-01 14:23:22.198  2332  3238 D CaptureSession: Attempting to send capture request onConfigured
+03-01 14:23:22.198  2332  3238 D CaptureSession: Issuing request for session.
+03-01 14:23:22.214  2332  3238 D CaptureSession: CameraCaptureSession.onConfigured() mState=OPENED
+03-01 14:23:22.215  2332  3238 D CaptureSession: CameraCaptureSession.onReady() OPENED
+03-01 14:23:22.844  2332  3238 D StreamStateObserver: Update Preview stream state to STREAMING
+03-01 14:23:23.204  2332  3232 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+03-01 14:23:23.252  2332  3232 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+03-01 14:23:23.709  2332  3276 W mixar.x5_demou: Accessing hidden field Ljava/nio/Buffer;->address:J (light greylist, reflection)
+03-01 14:23:23.745  2332  3276 I tflite  : Initialized TensorFlow Lite runtime.
+03-01 14:23:23.745  2332  3276 I native  : I0301 14:23:23.745746    3276 barcode_detector_client.cc:242] Not using NNAPI
+03-01 14:23:23.748  2332  3276 I native  : I0301 14:23:23.748038    3276 oned_decoder_client.cc:702] barhopper::deep_learning::OnedDecoderClient is created successfully.
+03-01 14:23:23.754  2332  3276 E libc    : Access denied finding property "ro.hardware.chipname"
+03-01 14:23:23.747  2332  2332 W pool-6-thread-2: type=1400 audit(0.0:74): avc: denied { read } for name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=20910 scontext=u:r:untrusted_app:s0:c82,c256,c512,c768 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-01 14:23:23.801  2332  3232 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+03-01 14:23:23.810  2332  3232 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+03-01 14:23:23.818  2332  3232 D TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+03-01 14:23:23.820  2332  2949 D WmsApi  : Request: ValidateRouteID_ALCO('03-01-2022 14:23:23','660165782','v3601','1234','','4','1')
+03-01 14:23:23.820  2332  2949 D WmsApi  : 
+03-01 14:23:23.826  2332  3232 D TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+03-01 14:23:24.567  2332  2408 D WmsApi  : Response: 0004731654,1,0,0,1,1018,01,1,,0,0,
+03-01 14:23:24.567  2332  2408 D WmsApi  : Buffer: 
+03-01 14:23:24.567  2332  2408 D WmsApi  : Buffer size: 0
+03-01 14:23:25.406  2332  2949 D WmsApi  : Request: PickingParams('03-01-2022 14:23:25','660165782','v3601','1234','0004731654','')
+03-01 14:23:25.406  2332  2949 D WmsApi  : 
+03-01 14:23:25.431  2332  2408 D WmsApi  : Response: SCAN_VARIABLE_WEIGHT,0,,0,
+03-01 14:23:25.431  2332  2408 D WmsApi  : Buffer: 
+03-01 14:23:25.431  2332  2408 D WmsApi  : Buffer size: 0
+03-01 14:23:25.567  2332  2332 D WmsInputProcessor: ошибка
+03-01 14:23:25.569  2332  2332 D VoskModule: ошибка
+03-01 14:23:25.767  2332  2949 D WmsApi  : Request: GetPalletIDs('03-01-2022 14:23:25','660165782','v3601','1234','0004731654','')
+03-01 14:23:25.767  2332  2949 D WmsApi  : 
+03-01 14:23:25.821  2332  2408 D WmsApi  : Response: D0041239708,708,0.0,0.0,,,,0.0,0,
+03-01 14:23:25.821  2332  2408 D WmsApi  : Buffer: 
+03-01 14:23:25.821  2332  2408 D WmsApi  : Buffer size: 0
+03-01 14:23:26.482  2332  2949 D LoggingModule: Command pushed: ScanPrinterCodeCommand. New state: PrinterConfirmedState. Prev state: ScanningPrinterCodeState
